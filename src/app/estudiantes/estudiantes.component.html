@@ -1,0 +1,45 @@
+<div class="container-fluid page">
+  <div class="d-flex page__box p-3 mt-2">Estudiantes</div>
+  <div class="page__content shadow p-3 position-relative">
+    <div class="page__content-data position-absolute text-center">
+      <!-- Estudiantes Content Goes Here -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Lista de Estudiantes</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <table class="table table-hover table-bordered table-sm">
+              <thead>
+                <tr>
+                  <th scope="col">Nr</th>
+                  <th scope="col">Tipo</th>
+                  <th scope="col">PERSONAL_ID</th>
+                  <th scope="col">Nro_Doc</th>
+                  <th scope="col">COMPROBANTE</th>
+                  <th scope="col">F_Nacimiento</th>
+                  <th scope="col">Padre_Nombres</th>
+                  <th scope="col">Madre_Nombres</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor= "let Estudiantes of estudiantes">
+                  <th scope="row">{{Estudiantes.Nr}}</th>
+                  <td>{{Estudiantes.Tipo}}</td>
+                  <td>{{Estudiantes.PERSONAL_ID}}</td>
+                  <td>{{Estudiantes.Nro_Doc}}</td>
+                  <td>{{Estudiantes.COMPROBANTE}}</td>
+                  <td>{{Estudiantes.F_Nacimiento}}</td>
+                  <td>{{Estudiantes.Padre_Nombres}}</td>
+                  <td>{{Estudiantes.Madre_Nombres}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

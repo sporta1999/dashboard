@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Generica, "Generica_Bold";
+  src: url(./assets/Generica.otf) format('truetype'),;
+  src: url(./assets/Generica_Bold.otf) format('truetype'),;
+}
+
+* {
+  font-family: "Generica_Bold";
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

@@ -1,0 +1,169 @@
+<mat-nav-list>
+  <div class="logo py-4">
+    <!-- <img src="./assets/logo.svg" alt="Company Logo" /> -->
+    <h1>ICAP ARGDEBRA</h1>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="menu py-3">
+    <img src="./assets/icono2/BUSCAR_B.png" width="40px" height="30px" class="imgMenu" class="imgbusca"/>
+    <input type="text" placeholder="BUSCAR" class="buscador">
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+      <img src="../../assets/icono2/CALENDARIO_B.png" width="40px" height="30px" class="imgMenu"/>CALENDARIO
+    </a>
+  </div>
+  <mat-divider></mat-divider>
+ <!--  <h2 matSubheader class="mt-2">APPLICATIONS</h2> -->
+
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/home" class="imgMenu">
+    <mat-icon>home</mat-icon> Home
+  </a>
+
+  <!-- <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
+    <mat-icon>dashboard</mat-icon> Dashboard
+  </a> -->
+  <!--------------- EMPRESA------------------->
+  <mat-expansion-panel hideToggle class="empresa">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+          <img src="../../assets/icono2/EMPRESA_B.png" width="40px" height="30px" class="imgMenus"/>
+          EMPRESA (EM)
+        </a>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <a mat-list-item href="#">GASTOS ADMINISTRATIVOS</a>
+    <a mat-list-item href="#">OFICINAS(OF)</a>
+  </mat-expansion-panel>
+  <!----------- PERIODOS ------------------------------------------->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono2/PERIODOS_B.png" width="40px" height="30px" class="imgMenu"/>
+    PERIODOS
+  </a>
+  <!-- -------- ESTUDIANTES   ----------------------------------- -->
+  <mat-expansion-panel hideToggle class="empresa">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="/estudiantes">
+      <img src="../../assets/icono2/ESTUDIANTES_B.png" width="40px" height="40px" class="imgMenus"/>
+      ESTUDIANTES (ES)
+    </a>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <a mat-list-item href="#">CONCEPTOS A PAGAR (CP)</a>
+    <a mat-list-item href="#">EXAMENES_CALIFICACIONES (EC)</a>
+    <a mat-list-item href="#">MATRICULAS (MA)</a>
+    <a mat-list-item href="#">PAGOS (PA)</a>
+  </mat-expansion-panel>
+  <!--------------------- AREAS ---------------------------->
+  <mat-expansion-panel hideToggle class="empresa">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+      <img src="../../assets/icono2/AREAS_B.png" width="40px" height="30px" class="imgMenus"/>
+      AREAS(AR)
+    </a>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <a mat-list-item href="#">MODULOS (MD)</a>
+    <a mat-list-item href="#">PROGRAMAS (PR)</a>
+    <a mat-list-item href="#">SUB_AREA (SA)</a>
+  </mat-expansion-panel>
+  <!-------------- ZONA ------------ -->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono2/ZONAS_B.png" width="40px" height="40px" class="imgMenu"/>
+    ZONAS (ZN)
+  </a>
+  <!-------------- PERSONAL ------------>
+  <mat-expansion-panel hideToggle class="empresa">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+      <img src="../../assets/icono2/PERSONAL_B.png" width="40px" height="35px" class="imgMenus"/>
+      PERSONAL (PE)
+    </a>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <a mat-list-item href="#">CAPACITACIONES EN INTERES</a>
+  </mat-expansion-panel>
+  <!--------------- ASISTENCIA ---------------->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono2/ASISTENCIA_B.png" width="40px" height="33px" class="imgMenu"/>
+    ASISTENCIA
+  </a>
+  <!--------------- ITEMS --------------------->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono3/ITEMS_B.png" width="40px" height="33px" class="imgMenu"/>
+    ITEMS (I)
+  </a>
+  <!--------------- UNIVERSIDADES -------------->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono3/UNIVERSIDADES_B.png" width="40px" height="33px" class="imgMenu"/>
+    UNIVERSIDADES (U)
+  </a>
+  <!--------------- ENTIDADES CONVENIO -------------->
+  <mat-expansion-panel hideToggle class="empresa">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+      <img src="../../assets/icono3/CONVENIOS_B.png" width="40px" height="40px" class="imgMenus"/>
+      ENTIDADES_CONVENIO (EC)
+    </a>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <a mat-list-item href="#">FALTA SUBMENUS</a>
+  </mat-expansion-panel>
+  <!--------------- ALMACENES -------------->
+  <mat-expansion-panel hideToggle class="empresa">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+      <img src="../../assets/icono3/ALMACEN_B.png" width="40px" height="28px" class="imgMenus"/>
+      ALMACENES
+    </a>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <a mat-list-item href="#">FALTA SUBMENUS</a>
+  </mat-expansion-panel>
+  <!--------------- ITEM GASTOS -------------->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono3/ITEMS-GASTOS_B.png" width="40px" height="40px" class="imgMenu"/>
+    ITEM GASTOS
+  </a>
+  <!--------------- PROVEEDORES -------------->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono3/PROVEEDORES_B.png" width="40px" height="40px" class="imgMenu"/>
+    PROVEEDORES
+  </a>
+  <!--------------- ACTIVOS FIJOS -------------->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono3/ACTIVOS-FIJOS_B.png" width="40px" height="40px" class="imgMenu"/>
+    ACTIVOS FIJOS
+  </a>
+  <!--------------- PEDIDOS ------------------->
+  <mat-expansion-panel hideToggle class="empresa">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+      <img src="../../assets/icono3/PEDIDOS_B.png" width="40px" height="37px" class="imgMenus"/>
+      PEDIDOS
+    </a>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <a mat-list-item href="#">FALTA SUBMENUS</a>
+  </mat-expansion-panel>
+  <!--------------- CAPACITACIONES Y TALLERES ------------------->
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="#">
+    <img src="../../assets/icono3/CAPACITACIONES-TALLERES_B.png" width="40px" height="37px" class="imgMenu"/>
+    CAPACITACIONES Y TALLERES
+  </a>
+
+  <!--
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/estudiantes">
+    <img src="../../assets/icono2/ESTUDIANTES_B.png" width="40px" height="40px"/>Estudiantes
+  </a>
+  <a mat-list-item> <mat-icon>edit</mat-icon> Link 3 </a>
+  <a mat-list-item> <mat-icon>edit</mat-icon> Link 4 </a>
+  <a mat-list-item> <mat-icon>edit</mat-icon> Link 5 </a>
+  <a mat-list-item> <mat-icon>edit</mat-icon> Link 6 </a>
+  -->
+</mat-nav-list>

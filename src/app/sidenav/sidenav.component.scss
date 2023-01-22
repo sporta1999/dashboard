@@ -1,0 +1,104 @@
+:host {
+  .mat-icon {
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+}
+.logo {
+  text-align: center;
+  padding: 2.6rem 1rem;
+
+  /* ICAP ARGDEBRA */
+  h1{
+    color: #f6f6f6;
+    font-size: 22px;
+    margin: 0;
+  }
+}
+
+.menu{
+  text-align: center;
+
+  // ICONO BUSCADOR
+  .imgbusca{
+    margin-left: 29px;
+    padding-right: 10px;
+  }
+  /* buscador  */
+  .buscador{
+    width: 165px;
+    font-size: 14px;
+    color: #f6f6f6;
+    background: none;
+    border: none;
+    outline: 0px;
+  }
+
+  ::placeholder{
+    color: #f6f6f6;
+  }
+
+}
+
+.mat-divider {
+  border-top-width: 2px;
+  border-color: white;
+}
+.mat-list-item {
+  color: #f6f6f6 !important;
+  font-size: 0.8rem;
+  height: 44px !important;
+  margin-bottom: 4px;
+  &:hover {
+    color: #f2f5f7 !important;
+  }
+  ::ng-deep {
+    .mat-list-item-content {
+      border-radius: 5px;
+      margin: 0 8px;
+      &:hover {
+        background: #2c3344 !important;
+      }
+    }
+  }
+}
+.list-item-active {
+  // background: blue !important;
+  // border-radius: 0 2rem 2rem 0;
+  // &:hover {
+  //   background: blue;
+  // }
+
+  color: #f2f5f7 !important;
+  ::ng-deep {
+    .mat-list-item-content {
+      background: #2c4444 !important;
+      &:hover {
+        background: #2c3344 !important;
+      }
+    }
+  }
+}
+.mat-subheader {
+  color: #818cf8;
+  font-size: 0.6rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+//menu empresa
+.empresa{
+  background: #0F3B6D;
+  margin-left: -15px;
+}
+
+//img menus
+.imgMenus{
+  padding-right: 10px;
+}
+
+//img Menu
+.imgMenu {
+  margin-left: 10px;
+  padding-right: 10px;
+}
